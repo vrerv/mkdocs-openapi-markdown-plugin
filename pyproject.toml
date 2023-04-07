@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mkdocs-openapi-markdown-plugin"
+version = "0.0.1"
+authors = [
+  { name="soonoh", email="soonoh.jung@vrerv.com" },
+]
+description = "Mkdocs plugin to generate openapi document markdown"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vrerv/mkdocs-openapi-markdown-plugin"
+"Bug Tracker" = "https://github.com/vrerv/mkdocs-openapi-markdown-plugin/issues"
+
+[project.entry-points."mkdocs.plugins"]
+openapi_markdown = "mkdocs_openapi_markdown_plugin.plugin:GenApiPlugin"
