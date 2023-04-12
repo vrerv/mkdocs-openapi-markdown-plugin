@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mkdocs-openapi-markdown-plugin"
-version = "0.0.4"
+version = "0.1.0"
 authors = [
   { name="soonoh", email="soonoh.jung@vrerv.com" },
 ]
