@@ -1,2 +1,2 @@
 mkdocs==1.4.2
-openapi_markdown==0.0.3
+openapi_markdown==0.0.4
