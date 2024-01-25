@@ -9,7 +9,7 @@ Add following lines to your `mkdocs.yml` configuration file:
 
 ```
 plugins:
-  - gen_nav:
+  - openapi_markdown:
       enabled: true
       openapi_file: openapi.json
       output_file: api_doc.md
